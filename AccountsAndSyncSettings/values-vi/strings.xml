@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of the feed synchronization activity. -->
+    <string name="app_label">Thiết lập tài khoản và đồng bộ</string>
+    <!-- Sync settings -->
+    <!-- Main Settings screen setting option name to go into the screen for data sync settings-->
+    <string name="sync_settings">Tài khoản &amp; đồng bộ</string>
+    <!-- Error message when the sync tried to delete too many things -->
+    <string name="sync_too_many_deletes">Vượt quá giới hạn xoá</string>
+    <!-- Data synchronization settings screen, title of setting that controls whether background data should be used -->
+    <string name="background_data">Dữ liệu nền</string>
+    <!-- Data synchronization settings screen, summary of setting that controls whether background data should be used -->
+    <string name="background_data_summary">Ứng dụng có thể đồng bộ, gửi và nhận dữ liệu bất cứ lúc nào</string>
+    <!-- Data synchronization settings screen, title of dialog that confirms the user's unchecking of background data -->
+    <string name="background_data_dialog_title">Chú ý</string>
+    <!-- Data synchronization settings screen, message of dialog that confirms the user's unchecking of background data -->
+    <string name="background_data_dialog_message">Tắt dữ liệu nền sẽ gia tăng thời lượng pin và lưu lượng mạng. Vài ứng dụng vẫn có thể sử dụng kết nối dữ liệu nền.</string>
+    <!-- Data synchronization settings screen, setting option name -->
+    <string name="sync_automatically">Tự động đồng bộ</string>
+    <!-- Data synchronization settings screen, setting option summary text when check box is selected -->
+    <string name="sync_automatically_summary">Ứng dụng tự động đồng bộ dữ liệu</string>
+    <!-- Data synchronization settings screen, setting option name -->
+    <string name="settings_backup">Sao lưu thiết lập</string>
+    <!-- Data synchronization settings screen, setting option summary text when check box is selected -->
+    <string name="settings_backup_summary">Sao lưu thiết lập của tôi</string>
+    <!-- Data synchronization settings screen, menu option -->
+    <string name="sync_menu_sync_now">Đồng bộ bây giờ</string>
+    <!-- Data synchronization settings screen, menu option -->
+    <string name="sync_menu_sync_cancel">Huỷ đồng bộ</string>
+    <!-- Data synchronization settings screen, summary of a sync provider (for example, Gmail) when autosync is off and the user wants to do a one-time sync. -->
+    <string name="sync_one_time_sync">Chạm để đồng bộ bây giờ<xliff:g id="last_sync_time">\n%1$s</xliff:g></string>
+    <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Gmail should be synced.  Should use "Gmail" to refer to this app.-->
+    <string name="sync_gmail">Gmail</string>
+    <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Calendar shoudl be synced. -->
+    <string name="sync_calendar">Lịch biểu</string>
+    <!-- Data synchronization settings screen, checkbox setting option name -->
+    <string name="sync_contacts">Liên lạc</string>
+    <!-- Dialog message for when there are too many deletes that would take place and we want user confirmation -->
+    <string name="sync_too_many_deletes_desc">Có <xliff:g id="number_of_deleted_items">%1$d</xliff:g> mục sẽ xoá cho <xliff:g id="type_of_sync">%2$s</xliff:g>, tài khoản <xliff:g id="account_name">%3$s</xliff:g>. Bạn muốn tiếp tục làm gì?</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to delete the items -->
+    <string name="sync_really_delete">Xoá các mục đó.</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to undo the deletions -->
+    <string name="sync_undo_deletes">Huỷ việc xoá.</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to do nothing for now -->
+    <string name="sync_do_nothing">Không làm gì.</string>
+    <!-- Message when sync is currently failing -->
+    <string name="sync_is_failing">Quá trình đồng bộ đang gặp vấn đề. Nó sẽ trở lại sau giây lát.</string>
+    <!-- Message introducing the user to Google Sync. -->
+    <string name="sync_plug"><font fgcolor="#ffffffff">Chào mừng đến với đồng bộ Google!</font>
+    \nA Đây là cách tiếp cận của Google với công việc đồng bộ dữ liệu, cho phép bạn truy cập các liên lạc, buổi hẹn và nhiều hơn nữa từ bất cứ nơi đâu.
+    </string>
+
+    <!-- TODO: Remove -->
+    <!-- Header title for those settings relating to application syncing. -->
+    <string name="header_application_sync_settings">Thiết lập đồng bộ ứng dụng</string>
+    <!-- TODO: end -->
+
+    <!-- Accounts & Synchronization settings --><skip/>
+    <!-- Header title for list of accounts on Accounts & Synchronization settings -->
+    <string name="header_manage_accounts">Quản lý tài khoản</string>
+    <!-- Header title for those settings relating to general syncing. -->
+    <string name="header_general_sync_settings">Thiết lập đồng bộ chung</string>
+
+    <!-- Sync status messages on Accounts & Synchronization settings --><skip/>
+    <!-- Sync status shown when sync is enabled -->
+    <string name="sync_enabled">Đồng bộ đã bật</string>
+    <!-- Sync status shown when sync is disabled -->
+    <string name="sync_disabled">Đồng bộ đã tắt</string>
+    <!-- Sync status shown when last sync resulted in an error -->
+    <string name="sync_error">Lỗi đồng bộ</string>
+
+    <!-- Button label to add an account -->
+    <string name="add_account_label">Thêm tài khoản</string>
+    <!-- Header for data and synchronization -->
+    <string name="header_data_and_synchronization">Dữ liệu &amp; đồng bộ hoá</string>
+    <!-- Preference item that lets the user change password -->
+    <string name="preference_change_password_title">Đổi mật khẩu</string>
+    <!-- Header that appears at the top of Account Settings screen -->
+    <string name="header_account_settings">Thiết lập tài khoản</string>
+    <!-- Button label to remove current account -->
+    <string name="remove_account_label">Xoá tài khoản</string>
+    <!-- Title shown in AddAccount -->
+    <string name="header_add_an_account">Thêm tài khoản</string>
+    <!-- Button shown when this activity is run from SetupWizard -->
+    <string name="finish_button_label">Kết thúc</string>
+    <!-- Title of remove message for remove account dialog -->
+    <string name="really_remove_account_title">Xoá tài khoản</string>
+    <!-- Remove account message in dialog -->
+    <string name="really_remove_account_message">Bạn có thực sự muốn xoá tài khoản này? Xoá bỏ nó đồng thời sẽ xoá tất cả các tin nhắn, liên lạc và các dữ liệu khác liên quan trên điện thoại.\nTiếp tục?</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed">Tài khoản này là bắt buộc với một vài ứng dụng. Bạn chỉ có thể xoá bỏ nó bằng cách thiết lập lại điện thoại về thiết lập mặc định (sẽ xoá hết dữ liệu cá nhân của bạn). Bạn có thể làm vậy trong ứng dụng Thiết lập, mục Riêng tư.</string>
+    <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+    <string name="provider_label">Push subscriptions</string>
+    <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
+    <string name="sync_item_title">Đồng bộ <xliff:g id="authority" example="Calendar">%s</xliff:g></string>
+    <!-- Title of dialog shown when you can't manually sync an item because it's disabled -->
+    <string name="cant_sync_dialog_title">Không thể đồng bộ bằng tay</string>
+    <!-- Messaage shown in dialog when you can't manually sync -->
+    <string name="cant_sync_dialog_message">Hiện đã tắt đồng bộ cho mục này. Để thay đổi, hãy tạm thời bật dữ liệu nền và tự động đồng bộ.</string>
+</resources>
